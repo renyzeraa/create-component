@@ -1,0 +1,72 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    font-family: 'Arial';
+}
+
+#botao button{
+    background: #ddd;
+    padding: 14px 16px;
+    margin: 10px 0 10px 10px;
+    border-radius: 5px;
+    border: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#botao button:hover {
+    
+    cursor: pointer;
+    transition: 0.5s;
+    background: black;
+    color:white;
+}
+
+#componente {
+    margin: 40px auto;
+    max-width: 400px; 
+}
+
+.prototipo_um,.prototipo_dois {
+    padding: 20px;
+    display: grid;
+    text-align: center;
+    gap: 12px;
+    background: #bfbfbf;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+input {
+    padding: 9px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #000000b8;
+}
+
+button {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background: white;
+    font-weight: bold;
+    text-transform: uppercase;  
+    cursor: pointer;
+}
+
+button:hover {
+      transition: 0.5s;
+    background: black;
+    color:white;
+}
+
+.select-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
